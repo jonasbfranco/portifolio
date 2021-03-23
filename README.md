@@ -24,3 +24,7 @@ https://favicon.io/favicon-generator/
 ## Site gradient
 
 https://uigradients.com/#Amin
+
+## Site emojis
+
+https://www.webfx.com/tools/emoji-cheat-sheet/
