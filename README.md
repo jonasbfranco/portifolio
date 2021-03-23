@@ -20,3 +20,7 @@ https://cdnjs.com/libraries/font-awesome
 ## Favicon.io
 
 https://favicon.io/favicon-generator/
+
+## Site gradient
+
+https://uigradients.com/#Amin
