@@ -15,6 +15,10 @@
   --font-action: "Muli", serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hamburguer {
   /* background-color: red; */
   width: 2rem;
@@ -27,6 +31,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   cursor: pointer;
+  z-index: 150;
 }
 
 .show-menu .hamburguer {
@@ -51,7 +56,7 @@
 }
 
 .show-menu #line3 {
-  transform: rotate(-45deg) translate(0.3rem, -0.45rem);
+  transform: rotate(-47deg) translate(0.1rem, -0.45rem);
 }
 
 .hamburguer span {
@@ -189,6 +194,7 @@ header {
   top: 0;
   right: -20rem;
   transition: all 0.5s;
+  z-index: 150;
 }
 
 .show-menu .sidebar {
@@ -579,4 +585,60 @@ header {
   padding: 1rem;
   cursor: pointer;
   grid-column: 2;
+}
+
+footer {
+  width: 100%;
+  height: 10rem;
+  background-color: #17181b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content p {
+  font-family: var(--font-secondary);
+  color: #a7a7a7;
+  font-size: 1.2rem;
+}
+
+.social-list a {
+  margin: 0 2rem;
+  color: #a7a7a7;
+  font-size: 1.3rem;
+}
+
+.social-list ul {
+  display: flex;
+}
+
+#link-topo {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  width: 3rem;
+  height: 3rem;
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.1rem 0.6rem #00000009;
 }
